@@ -1,0 +1,47 @@
+#input {
+    width: 50%;
+    height: 15px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#generate-btn {
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+}
+
+#generate-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.node {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .value {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .children {
+    display: flex;
+    justify-content: center;
+  }
+
+  .empty-node {
+    visibility: hidden;
+    width: 25px;
+    height: 25px;
+  }
